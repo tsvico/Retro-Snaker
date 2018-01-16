@@ -89,12 +89,12 @@ void GameInit()
 	mciSendString(L"play gaowenjie repeat", 0, 0, 0);
 	//L 宽字符
 	//初始化一条小蛇
-	loadimage(&blank, L"./snake/blank.jpg", 640, 480);
+	/*loadimage(&blank, L"./snake/blank.jpg", 640, 480);
 	loadimage(&Snake1, L"./snake/snake,jpg", 640, 480);
 	loadimage(&snakeHead, L"./snake/SnakeHead.png", 60, 60);
 	loadimage(&snakeImage, L"./image/end.gif", 60, 60);
 	loadimage(&SnakeOver, L"./image/SnakeOver.png", 640, 480);
-
+*/
 
 
 	setfillcolor(YELLOW);
